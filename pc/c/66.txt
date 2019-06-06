@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+	int a[9]={1,2,3,4,6,9,12,23,45},i,b[9],j=0,x;scanf("%d",&x);
+	for(i=0;i<9;i++)if(a[i]!=x){b[j]=a[i];j++;}
+	if(i==j)printf("ÎÞ´ËÊý");
+	else for(i=0;i<j;i++)printf("%d,",b[i]);
+	printf("\n");
+}

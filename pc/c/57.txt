@@ -1,0 +1,7 @@
+#include<stdio.h>   
+int main()   
+{  
+	int a,s=1;
+	while(a!=-1)
+	{scanf("%d",&a);s=s+a;}printf("%d\n",s); 
+}

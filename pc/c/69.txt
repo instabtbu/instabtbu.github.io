@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{
+	int a[10]={1,2,3,6,8,9,12,23,33},i,j,k,x;scanf("%d",&x);a[9]=x;
+	for(i=0;i<9;i++)for(j=0;j<9;j++){if(a[j]>a[j+1]){k=a[j];a[j]=a[j+1];a[j+1]=k;break;}}
+	for(i=0;i<10;i++)printf("%d,",a[i]);printf("\n");
+}

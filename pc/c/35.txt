@@ -1,0 +1,2 @@
+#include <stdio.h>
+void main(){char a;int i=0;scanf("%c",&a);if(a<95){while(a<90){a=a+1;i=i+1;printf("%c",a);}a=64;while(i<26){i=i+1;a=a+1;printf("%c",a);}}else{while(a<122){a=a+1;i=i+1;printf("%c",a);}a=96;while(i<26){i=i+1;a=a+1;printf("%c",a);}}printf("\n");}

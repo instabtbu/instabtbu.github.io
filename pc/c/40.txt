@@ -1,0 +1,2 @@
+#include<stdio.h>
+void main(){float x,s=0,a,i;a=1;scanf("%f",&x);for(i=1;;i++){s=s+a;a=a*(x/i);if(a<=0.001)break;}printf ("%.5f\n",s);}

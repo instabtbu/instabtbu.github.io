@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+	int a,b;char f;
+	scanf("%d%c%d",&a,&f,&b);
+	if(f=='+')printf("%d\n",a+b);
+	else if(f=='-')printf("%d\n",a-b);
+	else if(f=='*')printf("%d\n",a*b);
+	else if(f=='/'){if(b!=0)printf("%d\n",a/b);else printf("不能被0除\n");}
+	else printf("运算符有错\n");
+}

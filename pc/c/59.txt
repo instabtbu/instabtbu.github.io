@@ -1,0 +1,14 @@
+#include<stdio.h>  
+void main()
+{
+	int n,y,r,i,d=0;int t(int n,int y);
+	scanf("%d%d%d",&n,&y,&r);
+	for(i=1;i<=y-1;i++)d=d+t(n,i);d=d+r;printf("µÚ%dÌì\n",d);
+}
+
+int t(int n,int y)
+{
+	int r[12]={31,28,31,30,31,30,31,31,30,31,30,31};
+	if(((n%4==0&&n%100!=0)||(n%400==0)))r[1]=29;
+	return(r[y-1]);
+}

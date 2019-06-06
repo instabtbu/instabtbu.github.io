@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	int l,a,b,a1,b1,n,m=123,a2,b2;
+	scanf("%d%d%d",&l,&a,&b);
+	for(a1=0;a1<=l/a;a1++)for(b1=0;b1<=l/b;b1++)
+	{
+		n=a1*a+b1*b;
+		if((n<=l)&&((l-n)<m)){m=l-n;a2=a1;b2=b1;}
+	}
+	printf("%d,%d,%d\n",a2,b2,m);
+}

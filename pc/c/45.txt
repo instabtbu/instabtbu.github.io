@@ -1,0 +1,9 @@
+#include<stdio.h> 
+#include<math.h> 
+void main()  
+{   
+double s,n;
+scanf("%lf",&n);
+s=1/sqrt(5)*(pow(((1+sqrt(5))/2),n+2)-pow(((1-sqrt(5))/2),n+2))-1;
+printf("%.0f\n",s);
+}

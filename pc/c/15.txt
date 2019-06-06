@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{ 
+	float i,n=0,a;
+	for(i=1;i<=10;i++){scanf("%f",&a);n=n+a;}
+	printf("%.0f\n%.1f\n",n,n/10);
+}

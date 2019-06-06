@@ -1,0 +1,5 @@
+#include <stdio.h>
+void main()
+{
+	float r,s;scanf("%f",&r);s=r*r*3.1415926;printf("%.2f\n",s);
+}

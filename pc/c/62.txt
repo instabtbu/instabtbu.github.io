@@ -1,0 +1,14 @@
+#include<stdio.h>   
+void main()  
+{  
+    int i,j,tmp,list[50],n;  
+    scanf("%d",&n);/*输入实际个数*/  
+    for(i=0;i<n;i++)/*输入数组元素*/  
+       scanf("%d",&list[i]);
+
+	for(i=0;i<n-1;i++)for(j=0;j<n-1;j++)if(list[j]>list[j+1]){tmp=list[j];list[j]=list[j+1];list[j+1]=tmp;break;}
+
+ for(i=0;i<n; i++)  
+     printf("%d,",list[i]);   
+ printf("\n");  
+}  

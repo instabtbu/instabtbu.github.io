@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+	char c[100];int i=0,y=0,s=0,q=0;
+	fgets(c,100,stdin);
+	int j;
+	while(c[i]!='\0')
+	{j=c[i];if(j>47&&j<58)s++;else if((j>64&&j<91)||(j>96&&j<123))y++;else if(j>0)q++;i++;}
+	printf("字母数=%d,数字数=%d,其他字符数=%d\n",y,s,q);
+}

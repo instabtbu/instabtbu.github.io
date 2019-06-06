@@ -1,0 +1,7 @@
+#include <stdio.h>
+void main()
+{
+	int a,b;
+	//3¡õ¡Á6237£½¡õ3¡Á3564
+	for(a=0;a<=9;a++)for(b=0;b<=9;b++)if((30+a)*6237==(b*10+3)*3564)printf("%d,%d\n",a,b);
+}

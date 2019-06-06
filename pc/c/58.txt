@@ -1,0 +1,6 @@
+#include<stdio.h>   
+int main()   
+{  
+	int a,m=-32767,i,w;
+	for(i=1;i<=10;i++){scanf("%d",&a);if(a>m){m=a;w=i;}}printf("最大数在第%d个位置\n",w);
+}

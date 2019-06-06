@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main()
+{
+	int a,i,k=0;
+	scanf("%d",&a);
+	for(i=2;i<a;i++)
+	{if(a%i==0){k=1;}}
+	if(k==1)printf("不是素数\n");else printf("素数\n");
+}

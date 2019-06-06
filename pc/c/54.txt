@@ -1,0 +1,12 @@
+#include<stdio.h>  
+void main()  
+{  
+ int a[100],i,min,max,n;  
+ scanf("%d",&n);  
+ for(i=0;i<n;i++)/*输入n个数并保存到数组a*/  
+     scanf("%d",&a[i]);  
+
+min=32767;max=-32767;
+for(i=0;i<n;i++){if(a[i]<min)min=a[i];if(a[i]>max)max=a[i];}
+printf("min=%d,max=%d\n",min,max);
+}

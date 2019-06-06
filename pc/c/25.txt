@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int i=1;
+float pi=0,x,k=1;
+scanf("%f",&x);
+for(i=1;1.0/i>=x;i=i+2){pi=pi+1.0/i*k;k=-k;}
+printf("%f\n",pi*4);
+}

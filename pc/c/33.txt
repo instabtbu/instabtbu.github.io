@@ -1,0 +1,6 @@
+#include <stdio.h>
+void main()
+{
+	int a,m,j;scanf("%d%d",&m,&j);
+	for(a=1;a<m;a++){if(a*2+(m-a)*4==j)printf("ผฆ=%d,อร=%d\n",a,m-a);}
+}

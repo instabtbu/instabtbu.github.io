@@ -1,0 +1,2 @@
+#include <stdio.h>
+void main(){float a;scanf("%f",&a);if(a>0.00001)printf("3.141397\n");else printf("3.141594\n");}

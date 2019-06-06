@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+	char a,i;
+	scanf("%c",&a);i=a+1;
+	while(i!=a){printf("%c",i);i++;
+	if(i==123)i='a';if(i==91)i='A';}
+	printf("%c\n",a);
+}

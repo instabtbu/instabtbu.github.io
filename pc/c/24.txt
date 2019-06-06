@@ -1,0 +1,13 @@
+#include<stdio.h>      
+void main()      
+{       
+    float n,jc=0,i,f=1;     
+    scanf("%f",&n);   
+    for(i=1;i<=n;i++) 
+	{
+    jc=jc+i*f;  
+	f=-f;
+	}
+    printf("%.0f\n",jc);      
+}  
+//YGY

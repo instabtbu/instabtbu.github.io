@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+float e=1.0,n=1.0,m,x;
+scanf("%f",&x);
+m=x;
+while(m>0.001)
+{e=e+m;
+n=n+1;
+m=m*x/n;
+}
+printf("%.5f\n",e);
+}

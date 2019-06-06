@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+	int a=1,b=1,c=2,i=0,i2,n;
+	scanf("%d",&n);
+	for(i2=1;i2<=n;i2++){
+	printf("%d,",a);i++;if(i%4==0)printf("\n");
+	a=b;b=c;c=a+b;
+	}
+	if(i%4!=0)printf("\n");
+}

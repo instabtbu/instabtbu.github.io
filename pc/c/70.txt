@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{
+	int a[10]={1,2,3,6,8,9,12,23,33},i,j,x;scanf("%d",&x);
+	for(i=0;i<9;i++){if(a[i]<x)printf("%d,",a[i]);else{printf("%d,",x);break;}}
+	for(j=i;j<9;j++)printf("%d,",a[j]);printf("\n");
+}
